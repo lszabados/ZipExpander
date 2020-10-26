@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>László Szabados</Authors>
+    <Company>Consult 2000 Kft</Company>
+    <Product>ZipExpander</Product>
+    <Copyright />
+    <RepositoryUrl>https://github.com/lszabados/ZipExpander</RepositoryUrl>
+    <RepositoryType>Library</RepositoryType>
+    <PackageTags>Zip Decompress</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SharpZipLib" Version="1.3.0" />
+  </ItemGroup>
+
+</Project>
