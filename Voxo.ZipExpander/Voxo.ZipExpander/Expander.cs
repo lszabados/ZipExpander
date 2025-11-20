@@ -12,7 +12,7 @@ namespace Voxo.ZipExpander
         private const int ZIP_LEAD_BYTES = 0x04034b50;
         private const ushort GZIP_LEAD_BYTES = 0x8b1f;
 
-        public static string version = "Main 1.0";
+        public static string version = "Dev 1.0";
         public abstract Stream Expand(Stream stream);
 
         internal static bool IsPkZipCompressedData(byte[] data)
