@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 
 namespace Voxo.ZipExpander
@@ -11,6 +12,7 @@ namespace Voxo.ZipExpander
         private const int ZIP_LEAD_BYTES = 0x04034b50;
         private const ushort GZIP_LEAD_BYTES = 0x8b1f;
 
+        public static string version = "Dev 1.1";
         public abstract Stream Expand(Stream stream);
 
         internal static bool IsPkZipCompressedData(byte[] data)
